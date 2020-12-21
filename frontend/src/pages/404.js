@@ -7,12 +7,14 @@ const NotFoundPage = () => (
   <Layout>
     <SEO
       seo={{
-        metaTitle: "404: Not found",
-        metaDescription: "It looks like you got lost",
+        metaTitle: "404: não encontrado",
+        metaDescription: "parece que você tá perdide!",
       }}
     />
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn't exist... the sadness.</p>
+    <h1>vish, não encontramos sua página não</h1>
+    <p>
+      parece que você acessou uma página que não existe não, viu? bora voltar pra home?
+    </p>
   </Layout>
 );
 

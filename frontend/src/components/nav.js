@@ -21,11 +21,14 @@ const Nav = () => (
     render={(data) => (
       <div>
         <div>
-          <nav className="uk-navbar-container" data-uk-navbar>
+          <nav data-uk-navbar>
             <div className="uk-navbar-left">
               <ul className="uk-navbar-nav">
                 <li>
-                  <Link to="/">{data.strapiGlobal.siteName}</Link>
+                  <Link to="/">
+                  <h1>miguel soares</h1>
+                  </Link>
+                  <p>relatos da minha infinita-metragem</p>
                 </li>
               </ul>
             </div>
