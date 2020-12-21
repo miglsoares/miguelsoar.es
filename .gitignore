@@ -72,6 +72,3 @@ yarn-error.log
 # Custom
 
 .vscode
-
-# Strapi's backend
-/backend
